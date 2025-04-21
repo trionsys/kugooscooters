@@ -1,6 +1,7 @@
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
+    effect: "fade",
   
     pagination: {
       el: '.swiper-pagination',
@@ -16,10 +17,10 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
 
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    //   },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
 
   });
 
