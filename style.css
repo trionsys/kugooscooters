@@ -2,6 +2,7 @@
 
 :root {
     --main-color: #6f73ed;
+    --main-text: #282739;
 }
 
 * {
@@ -65,7 +66,7 @@ a {
 .first-header-right p {
     font-weight: 600;
     font-size: 14px;
-    color: #282739;
+    color: var(--main-text);
 }
 
 hr {
@@ -166,13 +167,13 @@ hr {
     width: 100%;
     font-weight: 500;
     font-size: 14px;
-    color: #282739;
+    color: var(--main-text);
     margin-top: 45px;
     margin-bottom: 30px;
 }
 
 .third-header * {
-    color: #282739;
+    color: var(--main-text);
 }
 
 .third-header .container {
@@ -239,7 +240,7 @@ hr {
     display: inline-block;
 }
 
-.swiper-1slide-info h2 {
+.swiper-1slide-info h2, .swiper-2slide-info h2 {
     font-weight: 600;
     font-size: 35px;
     text-transform: uppercase;
@@ -250,8 +251,8 @@ hr {
     top: 36px;
 }
 
-.swiper-1slide-info p {
-    font-weight: 400;
+.swiper-1slide-info p, .swiper-2slide-info p {
+    font-weight: 300;
     font-size: 20px;
     color: white;
     position: relative;
@@ -267,7 +268,7 @@ hr {
     left: 70px;
     top: 25px;
     background: #FFFFFF;
-    color: #6F73EE;
+    color: var(--main-color);
     font-weight: 400;
     font-size: 16px;
     text-align: center;
@@ -276,7 +277,7 @@ hr {
 
 .swiper-button-next:after, .swiper-button-prev:after {
     color: white;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF33;
     border-radius: 100%;
     width: 26px;
     height: 26px;
@@ -288,4 +289,172 @@ hr {
 
 .swiper-scrollbar-drag {
     background: white !important;
+    width: 15px !important;
+}
+
+.swiper-button-prev:after{
+    padding-right: 3px;
+}
+
+.swiper-button-next:after{
+    padding-left: 3px;
+}
+
+.swiper-button-prev{
+    left: 125px !important;
+    top: 380px !important;
+}
+
+.swiper-button-next{
+    right: 1080px !important;
+    top: 380px !important;
+}
+
+.swiper-pagination-horizontal{
+    color: white !important;
+    left: -470px !important;
+    top: 340px !important;
+}
+
+.swiper-scrollbar{
+    width: 34px !important;
+    top: 375px !important;
+    left: 160px !important;
+}
+
+.swiper-2slide-info img{
+    width: 770px !important;
+    height: 40px;
+    left: 70px;
+    padding-top: 10px;
+}
+
+.swiper-2slide-info a{
+    position: relative;
+    left: 70px;
+    background-color: white;
+    color: #F3A712;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    top: 85px;
+}
+
+.zoomicon{
+    width: 50px !important;
+    height: 50px !important;
+    position: relative;
+    top: 55px;
+    left: 530px;
+}
+
+.swiper-3slide-info img{
+    width: 62px;
+    height: 27px;
+    position: relative;
+    top: 67px;
+    left: 706px;
+}
+
+.swiper-3slide-info h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    width: 528px;
+    top: 60px;
+    left: 703px;
+}
+
+.swiper-3slide-info a{
+    position: relative;
+    background: white;
+    width: 240px;
+    height: 53px;
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3C89FD;
+    left: 705px;
+    top: 75px;
+}
+
+.info-about-company{
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+.info-about-company h2{
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--main-text);
+}
+
+.info-about-company p{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-text);
+    margin-top: -20px;
+}
+
+.info-about-company a{
+    margin-top: 7px;
+}
+
+.electroscooters-header{
+    margin-bottom: 30px;
+}
+
+.electroscooters-header h2{
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;   
+    color: var(--main-text); 
+}
+
+.nonactive-button{
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    background: #F4F7FB;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5D6C7B;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.active-button{
+    border-radius: 5px;
+    padding: 10px 18.7px 10px 18.7px;
+    background: #F4F7FB;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--main-color);
+    border: 1.3px solid var(--main-color);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.electroscooters-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.kart {
+    width: 255px;
+    height: 492px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid #e9eaec;
+
 }
