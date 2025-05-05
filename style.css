@@ -3,6 +3,7 @@
 :root {
     --main-color: #6f73ed;
     --main-text: #282739;
+    --hit-color: #EE685F;
 }
 
 * {
@@ -306,7 +307,7 @@ hr {
 }
 
 .swiper-button-next{
-    right: 1080px !important;
+    right: 1070px !important;
     top: 380px !important;
 }
 
@@ -454,7 +455,89 @@ hr {
     width: 255px;
     height: 492px;
     margin-top: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 2px solid #e9eaec;
+}
 
+.kart-img * {
+    cursor: default !important;
+    
+}
+
+.kart-img img{
+    width: 100%;
+    margin-top: 27px;
+}
+
+.kart-img{
+    height: 255px;
+    background-color: #eff0f4;
+}
+
+.kart-img span{
+    width: 41px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: var(--hit-color);
+    color: white;
+    font-weight: 400;
+    font-size: 12px;  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -217px;
+    margin-left: 10px;
+}
+
+.vesy-vkruge-kart{
+    width: 35px !important;
+    height: 35px;
+    margin-left: 210px;
+    top: -55px;
+    position: relative;
+    cursor: pointer !important;
+}
+
+.other-buttons img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.other-buttons a{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1.3px solid #EAEBED;
+    display: block;
+    margin-left: 10px;
+}
+
+.kart-info{
+    padding: 20px 25px 20px 25px;
+}
+
+.kart-info *{
+    margin: 0;
+}
+
+.kart-info h2{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--main-text);
+    margin-bottom: 20px;
+}
+
+.price span{
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #5D6C7B;
+}
+
+.price h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--main-text);
 }
