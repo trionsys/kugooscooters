@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --main-color: #6f73ed;
@@ -443,17 +444,16 @@ hr {
     margin-left: 10px;
 }
 
-.electroscooters-main {
+.electroscooters-main, .kart-other-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-
 .kart {
     width: 255px;
-    height: 492px;
+    height: 515px;
     margin-top: 30px;
     border-radius: 8px;
     border: 2px solid #e9eaec;
@@ -522,6 +522,10 @@ hr {
     margin: 0;
 }
 
+.kart-other-info{
+    height: 65px;
+}
+
 .kart-info h2{
     font-weight: 600;
     font-size: 18px;
@@ -540,4 +544,45 @@ hr {
     font-weight: 600;
     font-size: 20px;
     color: var(--main-text);
+}
+
+.kart-other-info div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.kart-other-info img{
+    margin-right: 10px;
+}
+
+.kart-other-info p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5D6C7B;
+}
+
+.buy-in1-click{
+    width: 165px;
+    height: 22px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background: #6F73EE;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.kart-new{
+    width: 63px !important;
+    height: 25px !important;
+    border-radius: 5px;
+    background: #75D14A !important;
 }
