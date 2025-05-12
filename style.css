@@ -586,3 +586,67 @@ hr {
     border-radius: 5px;
     background: #75D14A !important;
 }
+
+.energy{
+    position: relative;
+    left: 8px;
+}
+
+.electroscooters-footer{
+    margin-top: 65px;
+    margin-bottom: 102px;
+}
+
+.electroscooters-footer a{
+    border: 1.3px solid var(--main-color);
+    width: 142px;
+    height: 53px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+    margin: auto;
+}
+
+.banner2_0{
+    position: relative;
+    bottom: 191px;
+    z-index: -1;
+}
+
+.podbor-electroscooters h2, .service-support h2{
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--main-text);
+    width: 258px;
+    height: 72px;
+    margin: -5px 0;
+}
+
+.podbor-electroscooters h2, .podbor-electroscooters p, .podbor-electroscooters a, .service-support h2, .service-support p, .service-support a{
+    padding-left: 40px;
+}
+
+.podbor-electroscooters p, .service-support p{
+    width: 258px;
+    height: 46px;
+    color: var(--main-text);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+
+.podbor-electroscooters a p, .service-support a p{
+    color: var(--main-color);
+}
+
+.podobrat-model{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+}
