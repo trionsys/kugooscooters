@@ -218,7 +218,7 @@ hr {
 .swiper-1slide-info img {
     width: 315px;
     height: 65px;
-    padding-left: 90px;
+    padding-left: 5px;
     padding-top: 42px;
 }
 
@@ -649,4 +649,49 @@ hr {
     color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
+}
+
+.free-delivery-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.free-delivery-banner-info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -335px;
+    width: 441px;
+    flex-direction: column;
+    left: 765px;
+}
+
+.free-delivery-banner-info h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.free-delivery-banner-info a{
+    background: #FFFFFF;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    width: 132px;
+    height: 53px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular-categories-header{
+    margin-top: -173px;
+}
+
+.popular-categories-header h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
 }
