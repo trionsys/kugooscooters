@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     left: 0;
@@ -91,7 +91,8 @@ hr {
     justify-content: space-between;
 }
 
-.catalog-button, .logo {
+.catalog-button,
+.logo {
     cursor: pointer;
 }
 
@@ -144,7 +145,8 @@ hr {
     border: none;
 }
 
-.header-search select:focus, .header-search input:focus {
+.header-search select:focus,
+.header-search input:focus {
     outline: none;
 }
 
@@ -195,13 +197,14 @@ hr {
     cursor: pointer;
 }
 
-.fourth-header{
+.fourth-header {
     width: 100%;
     background-color: #fdfdfd;
     height: 5px;
 }
 
-.delvieryandpay img, .aktsii img {
+.delvieryandpay img,
+.aktsii img {
     margin-left: 8px;
 }
 
@@ -256,7 +259,8 @@ hr {
     display: inline-block;
 }
 
-.swiper-1slide-info h2, .swiper-2slide-info h2 {
+.swiper-1slide-info h2,
+.swiper-2slide-info h2 {
     font-weight: 600;
     font-size: 35px;
     text-transform: uppercase;
@@ -267,7 +271,8 @@ hr {
     top: 36px;
 }
 
-.swiper-1slide-info p, .swiper-2slide-info p {
+.swiper-1slide-info p,
+.swiper-2slide-info p {
     font-weight: 300;
     font-size: 20px;
     color: white;
@@ -291,7 +296,8 @@ hr {
     padding: 15px 25px 15px 25px;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
     color: white;
     border: 1px solid #FFFFFF33;
     border-radius: 100%;
@@ -308,44 +314,44 @@ hr {
     width: 15px !important;
 }
 
-.swiper-button-prev:after{
+.swiper-button-prev:after {
     padding-right: 3px;
 }
 
-.swiper-button-next:after{
+.swiper-button-next:after {
     padding-left: 3px;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
     left: 125px !important;
     top: 380px !important;
 }
 
-.swiper-button-next{
+.swiper-button-next {
     right: 1070px !important;
     top: 380px !important;
 }
 
-.swiper-pagination-horizontal{
+.swiper-pagination-horizontal {
     color: white !important;
     left: -470px !important;
     top: 340px !important;
 }
 
-.swiper-scrollbar{
+.swiper-scrollbar {
     width: 34px !important;
     top: 375px !important;
     left: 160px !important;
 }
 
-.swiper-2slide-info img{
+.swiper-2slide-info img {
     width: 770px !important;
     height: 40px;
     left: 70px;
     padding-top: 10px;
 }
 
-.swiper-2slide-info a{
+.swiper-2slide-info a {
     position: relative;
     left: 70px;
     background-color: white;
@@ -358,7 +364,7 @@ hr {
     top: 85px;
 }
 
-.zoomicon{
+.zoomicon {
     width: 50px !important;
     height: 50px !important;
     position: relative;
@@ -366,7 +372,7 @@ hr {
     left: 530px;
 }
 
-.swiper-3slide-info img{
+.swiper-3slide-info img {
     width: 62px;
     height: 27px;
     position: relative;
@@ -374,7 +380,7 @@ hr {
     left: 706px;
 }
 
-.swiper-3slide-info h2{
+.swiper-3slide-info h2 {
     font-weight: 600;
     font-size: 35px;
     text-transform: uppercase;
@@ -385,7 +391,7 @@ hr {
     left: 703px;
 }
 
-.swiper-3slide-info a{
+.swiper-3slide-info a {
     position: relative;
     background: white;
     width: 240px;
@@ -399,42 +405,42 @@ hr {
     top: 75px;
 }
 
-.info-about-company{
+.info-about-company {
     margin-top: 40px;
     margin-bottom: 75px;
 }
 
-.info-about-company h2{
+.info-about-company h2 {
     font-weight: 600;
     font-size: 25px;
     text-transform: uppercase;
     color: var(--main-text);
 }
 
-.info-about-company p{
+.info-about-company p {
     font-weight: 400;
     font-size: 16px;
     color: var(--main-text);
     margin-top: -20px;
 }
 
-.info-about-company a{
+.info-about-company a {
     margin-top: 7px;
 }
 
-.electroscooters-header{
+.electroscooters-header {
     margin-bottom: 30px;
 }
 
-.electroscooters-header h2{
+.electroscooters-header h2 {
     font-weight: 600;
     font-size: 35px;
     margin: 0;
-    text-transform: uppercase;   
-    color: var(--main-text); 
+    text-transform: uppercase;
+    color: var(--main-text);
 }
 
-.nonactive-button{
+.nonactive-button {
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
     background: #F4F7FB;
@@ -446,7 +452,7 @@ hr {
     margin-left: 10px;
 }
 
-.active-button{
+.active-button {
     border-radius: 5px;
     padding: 10px 18.7px 10px 18.7px;
     background: #F4F7FB;
@@ -458,7 +464,9 @@ hr {
     margin-left: 10px;
 }
 
-.electroscooters-main, .kart-other-info, .popular-categories-main {
+.electroscooters-main,
+.kart-other-info,
+.popular-categories-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -475,27 +483,27 @@ hr {
 
 .kart-img * {
     cursor: default !important;
-    
+
 }
 
-.kart-img img{
+.kart-img img {
     width: 100%;
     margin-top: 27px;
 }
 
-.kart-img{
+.kart-img {
     height: 255px;
     background-color: #eff0f4;
 }
 
-.kart-img span{
+.kart-img span {
     width: 41px;
     height: 25px;
     border-radius: 5px;
     background-color: var(--hit-color);
     color: white;
     font-weight: 400;
-    font-size: 12px;  
+    font-size: 12px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -504,7 +512,7 @@ hr {
     margin-left: 10px;
 }
 
-.vesy-vkruge-kart{
+.vesy-vkruge-kart {
     width: 35px !important;
     height: 35px;
     margin-left: 210px;
@@ -513,13 +521,13 @@ hr {
     cursor: pointer !important;
 }
 
-.other-buttons img{
+.other-buttons img {
     width: 20px;
     height: 20px;
     padding: 10px;
 }
 
-.other-buttons a{
+.other-buttons a {
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -528,57 +536,57 @@ hr {
     margin-left: 10px;
 }
 
-.kart-info{
+.kart-info {
     padding: 20px 25px 20px 25px;
 }
 
-.kart-info *{
+.kart-info * {
     margin: 0;
 }
 
-.kart-other-info{
+.kart-other-info {
     height: 65px;
 }
 
-.kart-info h2{
+.kart-info h2 {
     font-weight: 600;
     font-size: 18px;
     color: var(--main-text);
     margin-bottom: 20px;
 }
 
-.price span{
+.price span {
     font-weight: 600;
     font-size: 12px;
     text-decoration: line-through;
     color: #5D6C7B;
 }
 
-.price h2{
+.price h2 {
     font-weight: 600;
     font-size: 20px;
     color: var(--main-text);
 }
 
-.kart-other-info div{
+.kart-other-info div {
     display: flex;
     justify-content: start;
     align-items: center;
 
 }
 
-.kart-other-info img{
+.kart-other-info img {
     margin-right: 10px;
 }
 
-.kart-other-info p{
+.kart-other-info p {
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     color: #5D6C7B;
 }
 
-.buy-in1-click{
+.buy-in1-click {
     width: 165px;
     height: 22px;
     display: block;
@@ -594,24 +602,26 @@ hr {
     color: white;
 }
 
-.kart-new{
+.kart-new {
     width: 63px !important;
     height: 25px !important;
     border-radius: 5px;
     background: #75D14A !important;
 }
 
-.energy{
+.energy {
     position: relative;
     left: 8px;
 }
 
-.electroscooters-footer, .popular-categories-footer{
+.electroscooters-footer,
+.popular-categories-footer {
     margin-top: 65px;
     margin-bottom: 102px;
 }
 
-.electroscooters-footer a, .popular-categories-footer a{
+.electroscooters-footer a,
+.popular-categories-footer a {
     border: 1.3px solid var(--main-color);
     width: 142px;
     height: 53px;
@@ -626,13 +636,14 @@ hr {
     margin: auto;
 }
 
-.banner2_0{
+.banner2_0 {
     position: relative;
     bottom: 191px;
     z-index: -1;
 }
 
-.podbor-electroscooters h2, .service-support h2{
+.podbor-electroscooters h2,
+.service-support h2 {
     font-weight: 600;
     font-size: 25px;
     text-transform: uppercase;
@@ -642,11 +653,17 @@ hr {
     margin: -5px 0;
 }
 
-.podbor-electroscooters h2, .podbor-electroscooters p, .podbor-electroscooters a, .service-support h2, .service-support p, .service-support a{
+.podbor-electroscooters h2,
+.podbor-electroscooters p,
+.podbor-electroscooters a,
+.service-support h2,
+.service-support p,
+.service-support a {
     padding-left: 40px;
 }
 
-.podbor-electroscooters p, .service-support p{
+.podbor-electroscooters p,
+.service-support p {
     width: 258px;
     height: 46px;
     color: var(--main-text);
@@ -655,22 +672,23 @@ hr {
     margin-bottom: 22px;
 }
 
-.podbor-electroscooters a p, .service-support a p{
+.podbor-electroscooters a p,
+.service-support a p {
     color: var(--main-color);
 }
 
-.podobrat-model{
+.podobrat-model {
     color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
 }
 
-.free-delivery-banner{
+.free-delivery-banner {
     display: flex;
     justify-content: center;
 }
 
-.free-delivery-banner-info{
+.free-delivery-banner-info {
     position: relative;
     display: flex;
     justify-content: center;
@@ -680,14 +698,14 @@ hr {
     left: 765px;
 }
 
-.free-delivery-banner-info h2{
+.free-delivery-banner-info h2 {
     font-weight: 600;
     font-size: 35px;
     text-transform: uppercase;
     color: white;
 }
 
-.free-delivery-banner-info a{
+.free-delivery-banner-info a {
     background: #FFFFFF;
     color: black;
     font-weight: 400;
@@ -700,12 +718,12 @@ hr {
     justify-content: center;
 }
 
-.popular-categories-header{
+.popular-categories-header {
     margin-top: -173px;
     margin-bottom: 68px;
 }
 
-.popular-categories-header h2{
+.popular-categories-header h2 {
     font-weight: 600;
     font-size: 35px;
     text-transform: uppercase;
@@ -718,12 +736,12 @@ hr {
     margin-bottom: 30px;
 }
 
-.kart2 img{
+.kart2 img {
     position: absolute;
     border-radius: 10px;
 }
 
-.kart-info2{
+.kart-info2 {
     position: relative;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -737,7 +755,7 @@ hr {
     padding-left: 16px;
 }
 
-.kart-info2 p{
+.kart-info2 p {
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
@@ -745,8 +763,139 @@ hr {
     padding-top: 6px;
 }
 
-.kart-info2 span{
+.kart-info2 span {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
+}
+
+.shto-vy-poluchite ul {
+    list-style-type: none;
+    margin-bottom: 13px;
+    margin-left: -40px;
+}
+
+.info-about-kugoo {
+    width: 70%;
+    margin: auto;
+    background-color: #F4F7FB;
+    border-radius: 10px;
+    height: 623px;
+}
+
+.info-about-kugoo-left {
+    width: 606px;
+    height: 565px;
+    border-width: 1px;
+    position: absolute;
+}
+
+.happy-img{
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.nalozhenie-na-info-about-kugoo-left{
+    position: relative;
+    width: 231px;
+    height: 139px;
+    border-width: 1px;
+    border-style: solid;
+    border-image-source: linear-gradient(269deg, rgba(255, 255, 255, 0.1) 1.33%, rgba(255, 255, 255, 0) 98.69%);
+    bottom: 165px;
+    left: 365px;
+    color: white;
+    background: #FFFFFF33;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.podrobnee{
+    backdrop-filter: blur(10px);
+    background-color: var(--main-color);
+    width: 213px;
+    height: 42px;
+    border-radius: 10px;
+    position: relative;
+    left: -1px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.podrobnee img{
+    left: -20px;
+    position: relative;
+}
+
+.test-drive p{
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin: 0;
+    padding-top: 17px;
+}
+
+.test-drive span{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 122%;
+    padding-left: 20px;
+    display: block;
+    width: 182px;
+    padding-bottom: 16px;
+}
+
+.info-about-kugoo-right{
+    width: 540px;
+    margin-left: 680px;
+    margin-top: -35px;
+}
+
+.info-about-kugoo-right h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: var(--main-text);
+    margin-bottom: 25px;
+}
+
+.info-about-kugoo-right p{
+    margin-bottom: 40px;
+    color: var(--main-text);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.shto-vy-poluchite{
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 540px;
+    height: 204px;
+    padding-left: 23px;
+    padding-top: 1px;
+}
+
+.shto-vy-poluchite p{
+    margin-bottom: -7px;
+    color: var(--main-text);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.shto-vy-poluchite li img{
+    margin-right: 5px;
+}
+
+.shto-vy-poluchite li{
+    color: var(--main-text);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.shto-vy-poluchite a{
+    color: var(--main-color);
+    font-size: 14px;
 }
