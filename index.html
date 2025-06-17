@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KUGOO</title>
+    <title>Главная - KUGOO</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -32,11 +33,16 @@
             <img class="logo" src="./img/svg/Kugoo.svg" alt="kugoo">
             <img class="catalog-button" src="./img/svg/catalogbutton.svg" alt="catalogbutton">
             <div class="header-search">
-                <select name="everything" id="search-filters">
-                    <option value="everything">Везде</option>
-                    <option value="samokats">Самокаты</option>
-                    <option value="accesories">Аксессуары</option>
-                </select>
+                <div class="spisladkosok">
+                    <div class="select">
+                        <p>Везде</p>
+                        <img src="./img/svg/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="options">
+                        <p>Самокаты</p>
+                        <p>Аксессуары</p>
+                    </div>
+                </div>
                 <input placeholder="Искать самокат KUGOO" type="text">
                 <div class="search-button">
                     <img src="./img/svg/Search.svg" alt="search">

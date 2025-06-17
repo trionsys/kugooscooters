@@ -24,3 +24,18 @@ const swiper = new Swiper('.swiper', {
 
   });
 
+let select = document.querySelector(".select");
+let options = document.querySelector(".options");
+let arrow = document.querySelector(".select img");
+options.style.display = "none"
+select.addEventListener("click", function(){
+  if(options.style.display == "none"){
+    options.style.display = "block"
+    arrow.classList.toggle("open")
+    arrow.style.transform = "rotate(180deg)"
+  } else {
+    options.style.display = "none"
+    arrow.style.transform = "none"
+    arrow.classList.toggle("close")
+  }
+});
