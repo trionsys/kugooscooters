@@ -104,7 +104,7 @@ hr {
 
 .header-search {
     width: 603px;
-    height: 40px;
+    height: 35px;
     display: flex;
     justify-content: space-between;
     border: var(--main-color) 2px solid;
@@ -161,7 +161,12 @@ hr {
 }
 
 .options p {
-    padding-left: 21px;
+    padding-left: 12px;
+    transition: 0.2s;
+}
+
+.options p:hover{
+    color: var(--main-color);
 }
 
 .select {
@@ -171,15 +176,16 @@ hr {
 
 .select,
 .options {
-    background-color: var(--back-color);
+    /* background-color: var(--back-color); */
     border-radius: 6px;
     z-index: 999;
+    background-color: red;
 }
 
 .options {
     width: 109.78px;
     margin-left: 2.6px;
-    border-radius: 0px 0px 6px 6px;
+    margin-top: 14px;
     display: none;
 }
 

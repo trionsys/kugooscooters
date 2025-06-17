@@ -32,10 +32,12 @@ select.addEventListener("click", function(){
   if(options.style.display == "none"){
     options.style.display = "block"
     arrow.classList.toggle("open")
+    arrow.classList.remove('close')
     arrow.style.transform = "rotate(180deg)"
   } else {
     options.style.display = "none"
     arrow.style.transform = "none"
     arrow.classList.toggle("close")
+    arrow.classList.toggle("open")
   }
 });
