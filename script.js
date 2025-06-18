@@ -32,12 +32,22 @@ select.addEventListener("click", function(){
   if(options.style.display == "none"){
     options.style.display = "block"
     arrow.classList.toggle("open")
-    arrow.classList.remove('close')
+    arrow.classList.remove("close")
+    options.classList.toggle("listOpen")
+    options.classList.remove("listClose")
     arrow.style.transform = "rotate(180deg)"
   } else {
-    options.style.display = "none"
+    function set() {
+      options.style.display = "none"
+    }
+    setInterval(set, 3000)
+    clearInterval(set)
     arrow.style.transform = "none"
+     options.classList.toggle("listClose")
+    options.classList.remove("listOpen")
     arrow.classList.toggle("close")
     arrow.classList.toggle("open")
   }
 });
+
+
